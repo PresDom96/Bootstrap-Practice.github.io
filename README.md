@@ -1,4 +1,4 @@
-# Second-project
+
 <!--A Second Practice Page-->
 <!--Made with mainly BootStrap-5-->
 <!--I made this page to not only get a better feel for Bootstrap but to also make a more functional looking webpage that is interactive on both mobile and desktop.-->
@@ -10,26 +10,13 @@
         <link rel= "stylesheet" href="css/website practice.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <style>
-            body::before{
-    display: block;
-    content:'';
-    height: 60px;
-}
-
-@media (min-width: 768px){
-
-    .news-input{
-        width: 50%;
-    }
-}
-        </style>
+    
     </head>
     <body>
         <!--NavBar-->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
             <div class="container">
-                <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+                <a href="#" class="navbar-brand text-dark">Frontend Bootcamp</a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span class="navbar-toggler-icon"></span>
@@ -74,7 +61,7 @@
 
                 <div class="input-group news-input">
                     <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Button</button>
+                    <button class="btn btn-lg" type="button" id="button-addon2">Button</button>
                   </div>
 
             </div>
@@ -226,6 +213,7 @@
                </div>
            </div>
        </section>
+       
        <section id="instructors" class="p-5 bg-primary">
            <div class="container">
                <h2 class="text-center text-white">Our Instructors</h2>
@@ -315,14 +303,16 @@
                         </li>
                        </ul>
                    </div>
-                   
+                  
+                  </div> 
                </div>
+
            </div>
         
           
 
        </section>
-       <!-- Footer -->
+       <!-- Footer/button-->
        <footer class="p-5 bg-dark text-white text-center postition-relative">
            <div class="container">
                <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
@@ -330,8 +320,7 @@
                    <i class="bi bi-arrow-up-circle h1"></i>
                </a>
            </div>
-
-       </footer>
+          </footer>
 
        <!-- Modal -->
 <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enroll" aria-hidden="true">
@@ -381,5 +370,6 @@
   
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
     </body>
     </html>
